@@ -98,7 +98,7 @@ The final dashboard is built in **Power BI Desktop**, connected to the SQLite da
 
 - Build a keyword-matching PII classifier using regex/NLP
 - Automate the flagging process via machine learning
-- Integrate real-time ingestion and streaming analytics
+- Build a real-time dashboard that updates as new data comes in
 - Add sentiment analysis to understand customer tone
 
 ---
