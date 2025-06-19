@@ -51,6 +51,9 @@ To enable easier dashboarding, six SQL-based aggregated tables were created from
 5. **agg_pii_examples** – Samples of messages containing PII
 6. **agg_context_summary** – Count of different CONTEXT categories
 
+![image](image/scam_schema)
+
+
 Each of these tables is stored in the same SQLite database to enable fast querying and Power BI import.
 
 ---
