@@ -51,8 +51,7 @@ To enable easier dashboarding, six SQL-based aggregated tables were created from
 5. **agg_pii_examples** – Samples of messages containing PII
 6. **agg_context_summary** – Count of different CONTEXT categories
 
-![Database](images/scam_schema.png)
-
+<img src="images/scam_schema.png" alt="Database Schema" width="600"/>
 
 Each of these tables is stored in the same SQLite database to enable fast querying and Power BI import.
 
@@ -83,7 +82,7 @@ The final dashboard is built in **Power BI Desktop**, connected to the SQLite da
 - Some scam responses from customers indicate awareness, while others show vulnerability
 - Average number of steps per conversation is around 9-10
 
-  ![Dashboard](images/scam_dash.png)
+  <img src="images/scam_dash.png" alt="Dashboard" width="600"/>
 
 ---
 
